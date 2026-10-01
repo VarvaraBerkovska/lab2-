@@ -1,0 +1,11 @@
+color1 = input("red")
+color2 = input("blue")
+color3 = input("green")
+if (color1 == "rad" and color3 == "green") or (color3 == "green" and color1 == "rad"):
+    print ("yellow")
+elif (color2 == "blue" and color3 == "green") or (color3 == "green" and color2 == "blue"):
+    print ("sky blue")    
+elif (color1 == "rad" and color2 == "blue") or (color2 == "blue" and color1 == "rad"):
+    print ("purple")    
+else:
+    print ("lack of such a palette")
