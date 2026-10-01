@@ -1,0 +1,9 @@
+A = "Guido van Rossum"
+B = "Dennis Ritchie"
+
+if A > B: 
+   print("Dennis Ritchie")
+   print("Guido van Rossum")
+else:
+   print("Guido van Rossum")
+   print("Dennis Ritchie")
