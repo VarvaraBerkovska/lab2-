@@ -1,9 +1,8 @@
-color1 = input("red")
-color2 = input("blue")
-color3 = input("green")
-if (color1 == "rad" and color3 == "green") or (color3 == "green" and color1 == "rad"):
+color1 = input("введіть перший колір:")
+color2 = input("введіть другий колір:")
+if (color1 == "rad" and color2 == "green") or (color2 == "green" and color1 == "rad"):
     print ("yellow")
-elif (color2 == "blue" and color3 == "green") or (color3 == "green" and color2 == "blue"):
+elif (color2 == "blue" and color2 == "green") or (color2 == "green" and color2 == "blue"):
     print ("sky blue")    
 elif (color1 == "rad" and color2 == "blue") or (color2 == "blue" and color1 == "rad"):
     print ("purple")    
