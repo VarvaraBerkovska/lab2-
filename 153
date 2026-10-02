@@ -1,0 +1,19 @@
+x1, y1,x2, y2 = map(int, input ("введи числа:").split())
+
+if x1 > 0 and y1 > 0:
+    print("I", end=" ")
+elif x1 < 0 and y1 > 0:
+    print("II", end=" ") 
+elif x1 < 0 and y1 < 0:      
+    print("III", end=" ")
+else:
+    print("IV", end=" ")
+
+if x2 > 0 and y2 > 0:
+    print("I", end=" ")
+elif x2 < 0 and y2 > 0:
+    print("II", end=" ") 
+elif x2 < 0 and y2 < 0:      
+    print("III", end=" ")
+else:
+    print("IV", end=" ")    
