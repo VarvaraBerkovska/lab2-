@@ -1,0 +1,8 @@
+numbers = [231, 225, 178] 
+
+for num in numbers:
+    binary_str = bin(num)[2:].zfill(8)
+    
+    is_plindrome = binary_str == binary_str[::-1]
+
+    print(is_plindrome)
